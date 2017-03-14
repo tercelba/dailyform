@@ -13,11 +13,11 @@
 			<img class="ba-dailyform__logo" src="images/key.png"></img>
 			<h1 class="ba-dailyform__title">Create your free account</h1>
 			<p class="ba-dailyform__describe ba-describe-more">Come and join our cool and amazing community, fill in your details to get started. Already have an account? <a href="#" class="ba-dailyform__link">Log in.</a></p>
-			<form class="ba-create-account-form ba-clearfix" name="ba-create-account">
-				<input type="text" name="first-name" placeholder="First name" class="ba-create-account-form__input ba-input__half">
-				<input type="text" name="last-name" placeholder="Last name" class="ba-create-account-form__input ba-input__half">
-				<input type="email" name="email" placeholder="Email address" class="ba-create-account-form__input ba-input__whole">
-				<input type="Password" name="pasword" placeholder="Password" class="ba-create-account-form__input ba-input__whole">
+			<form  action="#" method="POST" class="ba-create-account-form ba-clearfix" name="ba-create-account">
+				<input type="text" name="first-name" placeholder="First name" class="ba-create-account-form__input ba-input__half" required>
+				<input type="text" name="last-name" placeholder="Last name" class="ba-create-account-form__input ba-input__half" required>
+				<input type="email" name="email" placeholder="Email address" class="ba-create-account-form__input ba-input__whole" valid required>
+				<input type="Password" name="pasword" placeholder="Password" class="ba-create-account-form__input ba-input__whole" required>
 				<button type="submit" class="ba-create-account-form__submit">Sign up for free</button>
 			</form>
 			<p class="ba-dailyform__describe ba-describe-less">By clicking on “Sign up for free”, you agree to the  <a href="#" class="ba-dailyform__link">Terms of Service</a> and the <a href="#" class="ba-dailyform__link">Privacy Policy</a></p>
